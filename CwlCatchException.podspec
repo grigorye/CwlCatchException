@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "CwlCatchException"
-  s.version       = "1.0.2"
+  s.version       = "1.0.2.beta-20181019"
   
   s.summary       = "A small Swift framework for catching Objective-C exceptions."
   s.description   = <<-DESC
@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   
   s.source        = { :git => "https://github.com/mattgallagher/CwlCatchException.git", :tag => "#{s.version}" }
   s.source_files  = "Sources/**/*.{swift,m,h}"
+  s.swift_version = "3.2"
 end
