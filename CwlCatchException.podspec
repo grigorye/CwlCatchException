@@ -15,4 +15,6 @@ Pod::Spec.new do |s|
   
   s.source        = { :git => "https://github.com/mattgallagher/CwlCatchException.git", :tag => "#{s.version}" }
   s.source_files  = "Sources/**/*.{swift,m,h}"
+  
+  s.swift_version = "4.2"
 end
