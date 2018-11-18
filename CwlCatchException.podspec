@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "CwlCatchException"
-  s.version       = "1.0.2"
+  s.version       = "1.1.0"
   
   s.summary       = "A small Swift framework for catching Objective-C exceptions."
   s.description   = <<-DESC
